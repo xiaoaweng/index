@@ -1,0 +1,108 @@
+@charset 'utf-8';
+
+#rightsidebar{
+	top:0;
+	bottom:0;
+	right:0;
+	width:55px;
+	height:270px;
+	margin:auto;
+	background-color:pink;
+}
+
+#rightsidebar ul li{
+	width:130px;
+	height:55px;
+	background-color:#31353d;
+	transition:.5s;
+}
+#rightsidebar ul li:hover{
+	margin-left:-75px;
+	background-color:#3ea3ff;
+}
+#rightsidebar ul li.phone:hover{
+	margin-left:-100px;
+}
+#rightsidebar ul li.wechat:hover{
+	overflow:visible;
+	margin-left:0;
+}
+#rightsidebar ul li.wechat:hover .erweima{
+	left:-220px;
+	opacity:1;
+}
+#rightsidebar ul li.phone{
+	width:155px;
+}
+#rightsidebar ul li a{
+	display:block;
+	line-height:55px;
+	font-size:0;
+}
+#rightsidebar ul li.talk{
+	background-color:#3ea3ff;
+}
+#rightsidebar ul li a i{
+	display:inline-block;
+	width:55px;
+	height:30px;
+	background-repeat:no-repeat;
+	background-position:-30px 0;
+	background-image:url('../images/47.png');
+	vertical-align:middle;
+}
+#rightsidebar ul li.talk a i{
+	background-image:url('../images/46.png');
+	background-position:center 5px;
+}
+#rightsidebar ul li.note a i{
+	background-position:-30px -184px;
+}
+#rightsidebar ul li.wechat a i{
+	background-position:-30px -76px;
+}
+#rightsidebar ul li a span{
+	color:#fff;
+	font-size:16px;
+	vertical-align:middle;
+}
+#rightsidebar ul li.wechat {
+	overflow:hidden;
+}
+#rightsidebar ul li.wechat .erweima{
+	top:0;
+	bottom:0;
+	left:-200px;
+	width:180px;
+	height:190px;
+	margin:auto;
+	background-image:linear-gradient(rgba(0,0,0,.6) 0%,rgba(0,0,0,.6) 50%,rgba(0,0,0,.8) 50%,rgba(0,0,0,.8) 100%);
+	opacity:0;
+	text-align:center;
+	border-radius:10px;
+	transition:.5s;
+}
+#rightsidebar ul li.wechat .erweima:after{
+	content:'';
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:-16px;
+	width:0;
+	height:0;
+	margin:auto;
+	border-width:8px;
+	border-style:solid;
+	border-color:transparent transparent transparent #1e1e1e;
+	/* border:5px solid red; */
+} 
+#rightsidebar ul li.wechat .erweima img{
+	margin-top:10px;
+}
+#rightsidebar ul li.wechat .erweima span{
+	display:block;
+	line-height:30px;
+}
+#rightsidebar ul li.qq a i{
+	background-position:-30px -40px;
+}

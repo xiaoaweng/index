@@ -1,0 +1,135 @@
+@charset 'utf-8';
+
+/*footer-assess  start*/
+
+.footer-assess-content{
+	max-width:1180px;
+	height:100%;
+	margin:auto;
+	text-align:center;
+}
+.footer-assess-content h3{
+	padding:145px 0 25px;
+	border-bottom:1px solid #e2e2e2;
+	font-size:40px;
+	font-weight:100;
+}
+.footer-assess-content p{
+	font-size:16px;
+	line-height:40px;
+}
+.footer-assess-content>ul{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	/* align-items:center; */
+	width:90%;
+	height:400px;
+	margin:auto;
+}
+.footer-assess-content>ul li{
+	width:22%;
+	height:200px;
+}
+.footer-assess-content>ul li a{
+	display:block;
+}
+.footer-assess-content>ul li a img{
+	filter:grayscale(100%);
+	transition:.5s;
+}
+.footer-assess-content>ul li a img:hover{
+	filter:grayscale(0%);
+}
+/*footer-assess  end*/
+
+
+/*footer-info  start*/
+.footer-info{
+	height:500px;
+}
+.footer-info-content{
+	width:90%;
+	margin:auto;
+}
+.footer-info-content{
+	font-size:16px;
+}
+.footer-info-content .container{
+	padding:90px 0;
+}
+.footer-info-content h4{
+	font-weight:100;
+}
+.footer-info-content  .hot{
+	margin-right:12.5%;
+	line-height:38px;
+}
+.footer-info-content  .time{
+	line-height:38px;
+}
+.footer-info-content .friendship{
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	margin-bottom:60px;
+	line-height:45px;
+	color:#61b0ff;
+}
+.footer-info-content .friendship a{
+	padding:0 5px;
+}
+.footer-info-content .container-desc {
+	margin-bottom:90px;
+}
+.footer-info-content .container-desc .partner{
+	width:40%;
+	height:100%;
+}
+.footer-info-content .container-desc .partner :not(.on){
+	font-weight:600;
+}
+.footer-info-content .container-desc .partner p.on{
+	padding:35px 0;
+}
+.footer-info-content .container-desc .partner img{
+	padding-top:10px;
+}
+.footer-info-content .container-desc .partner p:nth-last-child(2){
+	padding-top:35px;
+}
+.footer-info-content .container-desc .partner p a{
+	color:#61b0ff;
+}
+.footer-info-content .container-desc .desc{
+	width:60%;
+	height:100%;
+}
+.footer-info-content .container-desc .desc dl{
+	margin-right:13%;
+}
+.footer-info-content .container-desc .desc dt{
+	margin-bottom:26px;
+	font-weight:600;
+}
+.footer-info-content .container-desc .desc dd{
+	font-size:14px;
+	line-height:36px;
+}
+.footer-info-content .guide{
+	text-align:center;
+	font-size:14px;
+}
+.footer-info-content .guide>:first-child{
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+}
+.footer-info-content .guide>a>img{
+	width:32px;
+}
+.footer-info-content .guide>p>a{
+	padding-left:20px;
+}
+.footer-info-content .guide>:nth-child(n){
+	padding:15px 0;
+}
+/*footer-info  end*/
